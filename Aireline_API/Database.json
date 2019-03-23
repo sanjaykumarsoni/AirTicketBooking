@@ -1,0 +1,39 @@
+{
+  "Airline": [
+    {
+      "id": 1,
+      "From": "Bangalore",
+      "UpTo": "Delhi",
+      "BaseFare": 2000,
+      "TotalSeats": 10,
+      "SeatPreference": {
+        "Window": 4,
+        "Middle": 4,
+        "Aisle": 2
+      },
+      "PriceSeatPref": {
+        "Window": 600,
+        "Middel": 200,
+        "Aisle": 400
+      }
+    },
+    {
+      "id": 2,
+      "From": "Bangalore",
+      "UpTo": "Nagpur",
+      "BaseFare": 1500,
+      "TotalSeats": 30,
+      "SeatPreference": {
+        "Window": 15,
+        "Middle": 10,
+        "Aisle": 5
+      },
+      "PriceSeatPref": {
+        "Window": 500,
+        "Middel": 100,
+        "Aisle": 200
+      }
+    }
+  ]
+}
+}

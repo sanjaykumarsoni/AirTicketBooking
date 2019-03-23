@@ -1,0 +1,139 @@
+﻿@using SharedModel
+@model BookingViewModel
+<div class="row" style="margin-top:10px;">
+    <div class="col col-lg-8">
+        <div class="row">
+            <div class="col col-lg-3">
+                Available Number of Seats
+            </div>
+            <div class="col col-lg-4 font-weight-bold">
+                @Html.Label("TotalSeats",Model.TotalSeats.ToString())
+            </div>
+        </div>
+        <div class="row">
+            <div class="col col-lg-2">
+                Seat Preference
+            </div>
+            <div class="col">
+                <div class="row">
+                    <div class="col col-lg-3">
+                        @Html.LabelFor(model => Model.SeatPreference.Aisle)
+                        @Html.CheckBoxFor(model => Model.SeatPreference.AisleCheck,new { @id="ChkAisle"})
+
+                    </div>
+                    <div class="row col col-lg-9">
+                        <div class="col">Seats - @Html.LabelFor(model => Model.SeatPreference.Aisle,Model.SeatPreference.Aisle, new {@id="AisleSeats" })</div>
+                        <div class="col">Price - (@Html.Label("Aisle", Model.PriceSeatPref.Aisle.ToString(), new {@id="AislePrice" }))</div>
+                        <div class="col">Select Seats - @Html.TextBoxFor(model=>Model.SeatPreference.SelectedSeatsAisle,new {size=1, @id = "TxtAisle", onkeyup="TxtAisleKeyUP();" , @type="number" })</div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col col-lg-3">
+                        @Html.LabelFor(model => Model.SeatPreference.Middle)
+                        @Html.CheckBoxFor(model => Model.SeatPreference.MiddleCheck, new { @id = "ChkMiddle" })
+
+                    </div>
+                    <div class=" row col col-lg-9">
+                        <div class="col">Seats - @Html.LabelFor(model => Model.SeatPreference.Middle,Model.SeatPreference.Middle, new { @id = "MiddleSeats" })</div>
+                        <div class="col">Price - (@Html.Label("Middle", Model.PriceSeatPref.Middle.ToString(), new { @id = "MiddlePrice" }))</div>
+                        <div class="col">Select Seats - @Html.TextBoxFor(model => Model.SeatPreference.SelectedSeatsMiddle, new { size = 1, @id = "TxtMiddle", onkeyup = "TxtMiddleKeyUP();", @type = "number" })</div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col col-lg-3">
+                        @Html.LabelFor(model => Model.SeatPreference.Window)
+                        @Html.CheckBoxFor(model => Model.SeatPreference.WindowCheck, new { @id = "ChkWindow" })
+
+                    </div>
+                    <div class=" row col col-lg-9">
+                        <div class="col">Seats - @Html.LabelFor(model => Model.SeatPreference.Window,Model.SeatPreference.Window, new { @id = "WindowSeats" })</div>
+                        <div class="col">Price - (@Html.Label("Window", Model.PriceSeatPref.Window.ToString(), new { @id = "WindowPrice" }))</div>
+                        <div class="col">Select Seats - @Html.TextBoxFor(model => Model.SeatPreference.SelectedSeatsWindow, new { size = 1, @id = "TxtWindow", onkeyup = "TxtWindowKeyUP();", @type = "number" })</div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+    <div class="col col-lg-4 border">
+        <div class="row">
+            <div class="col text-center font-weight-bold">
+                Summary of Booking
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                Base Fare
+            </div>
+            <div class="col"></div>
+            <div class="col">
+                @Html.Label("BaseFare", Model.BasePrice.ToString(), null)
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                Seat Selection
+            </div>
+            <div class="col">
+                Aisle
+            </div>
+            <div class="col">
+                <label id="SummaryAisle">0</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+
+            </div>
+            <div class="col">
+                Middle
+            </div>
+            <div class="col">
+                <label id="SummaryMiddle">0</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+
+            </div>
+            <div class="col">
+                Window
+            </div>
+            <div class="col">
+                <label id="SummaryWindow">0</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                Tax 10%
+            </div>
+            <div class="col">
+
+            </div>
+            <div class="col">
+                @{
+                    var Tax = (Model.BasePrice * 10) / 100;
+                }
+                <label id="SummaryTax">@Tax</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                Total Payable
+            </div>
+            <div class="col">
+
+            </div>
+            <div class="col">
+                @{
+                    var Total = Model.BasePrice + Tax;
+                }
+                <label id="SummaryTotal" class="font-weight-bold">@Total</label>
+            </div>
+        </div>
+    </div>
+</div>

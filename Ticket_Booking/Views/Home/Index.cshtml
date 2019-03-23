@@ -1,0 +1,25 @@
+﻿@using SharedModel
+@model BookingViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome To Travel Booking</h1>
+</div>
+<div class="row">
+    <div class="col col-lg-2">Booking For</div> 
+    <div class="col col-lg-2">
+        @{ 
+            List<SelectListItem> selectListItem = new List<SelectListItem>();
+            foreach(var item in Model.FromUptoDropDown)
+            {
+                selectListItem.Add(new SelectListItem { Value = item.id.ToString(), Text = item.FromUpto });
+            }
+        }
+        @Html.DropDownListFor(model=>Model.FromTOid,selectListItem,"--Select--")
+    </div>
+</div>
+<div id="AirLinePartial">
+    
+</div>

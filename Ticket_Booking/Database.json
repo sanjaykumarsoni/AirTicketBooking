@@ -1,0 +1,15 @@
+{
+  "Booking": [
+    {
+      "id": 1,
+      "From": "Bangalore",
+      "UpTo": "Delhi"
+    },
+    {
+      "id": 2,
+      "From": "Bangalore",
+      "UpTo": "Nagpur"
+    }
+  ]
+  
+}

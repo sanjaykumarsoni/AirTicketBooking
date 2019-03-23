@@ -1,0 +1,28 @@
+D:\Coding HoneyWell\HoneyWell_New-master\Booking_BAL\obj\Debug\netcoreapp2.2\Booking_BAL.csprojAssemblyReference.cache
+D:\Coding HoneyWell\HoneyWell_New-master\Booking_BAL\obj\Debug\netcoreapp2.2\Booking_BAL.csproj.CoreCompileInputs.cache
+D:\Coding HoneyWell\HoneyWell_New-master\Booking_BAL\obj\Debug\netcoreapp2.2\Booking_BAL.AssemblyInfoInputs.cache
+D:\Coding HoneyWell\HoneyWell_New-master\Booking_BAL\obj\Debug\netcoreapp2.2\Booking_BAL.AssemblyInfo.cs
+C:\Users\sku338\source\repos\Booking_BAL\obj\Debug\netcoreapp2.2\Booking_BAL.csprojAssemblyReference.cache
+C:\Users\sku338\source\repos\Booking_BAL\obj\Debug\netcoreapp2.2\Booking_BAL.csproj.CoreCompileInputs.cache
+C:\Users\sku338\source\repos\Booking_BAL\obj\Debug\netcoreapp2.2\Booking_BAL.AssemblyInfoInputs.cache
+C:\Users\sku338\source\repos\Booking_BAL\obj\Debug\netcoreapp2.2\Booking_BAL.AssemblyInfo.cs
+C:\Users\sku338\source\repos\Booking_BAL\bin\Debug\netcoreapp2.2\Booking_BAL.deps.json
+C:\Users\sku338\source\repos\Booking_BAL\bin\Debug\netcoreapp2.2\Booking_BAL.dll
+C:\Users\sku338\source\repos\Booking_BAL\bin\Debug\netcoreapp2.2\SharedModel.dll
+C:\Users\sku338\source\repos\Booking_BAL\bin\Debug\netcoreapp2.2\SharedModel.pdb
+C:\Users\sku338\source\repos\Booking_BAL\obj\Debug\netcoreapp2.2\Booking_BAL.csproj.CopyComplete
+C:\Users\sku338\source\repos\Booking_BAL\bin\Debug\netcoreapp2.2\Booking_BAL.pdb
+C:\Users\sku338\source\repos\Booking_BAL\obj\Debug\netcoreapp2.2\Booking_BAL.dll
+C:\Users\sku338\source\repos\Booking_BAL\obj\Debug\netcoreapp2.2\Booking_BAL.pdb
+D:\AirLineBooking\Booking_BAL\bin\Debug\netcoreapp2.2\Booking_BAL.deps.json
+D:\AirLineBooking\Booking_BAL\bin\Debug\netcoreapp2.2\Booking_BAL.dll
+D:\AirLineBooking\Booking_BAL\bin\Debug\netcoreapp2.2\Booking_BAL.pdb
+D:\AirLineBooking\Booking_BAL\bin\Debug\netcoreapp2.2\SharedModel.dll
+D:\AirLineBooking\Booking_BAL\bin\Debug\netcoreapp2.2\SharedModel.pdb
+D:\AirLineBooking\Booking_BAL\obj\Debug\netcoreapp2.2\Booking_BAL.csprojAssemblyReference.cache
+D:\AirLineBooking\Booking_BAL\obj\Debug\netcoreapp2.2\Booking_BAL.csproj.CoreCompileInputs.cache
+D:\AirLineBooking\Booking_BAL\obj\Debug\netcoreapp2.2\Booking_BAL.AssemblyInfoInputs.cache
+D:\AirLineBooking\Booking_BAL\obj\Debug\netcoreapp2.2\Booking_BAL.AssemblyInfo.cs
+D:\AirLineBooking\Booking_BAL\obj\Debug\netcoreapp2.2\Booking_BAL.csproj.CopyComplete
+D:\AirLineBooking\Booking_BAL\obj\Debug\netcoreapp2.2\Booking_BAL.dll
+D:\AirLineBooking\Booking_BAL\obj\Debug\netcoreapp2.2\Booking_BAL.pdb

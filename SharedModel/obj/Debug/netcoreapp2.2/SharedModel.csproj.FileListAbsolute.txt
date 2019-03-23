@@ -1,0 +1,21 @@
+D:\Coding HoneyWell\HoneyWell_New-master\SharedModel\obj\Debug\netcoreapp2.2\SharedModel.csproj.CoreCompileInputs.cache
+D:\Coding HoneyWell\HoneyWell_New-master\SharedModel\obj\Debug\netcoreapp2.2\SharedModel.AssemblyInfoInputs.cache
+D:\Coding HoneyWell\HoneyWell_New-master\SharedModel\obj\Debug\netcoreapp2.2\SharedModel.AssemblyInfo.cs
+C:\Users\sku338\source\repos\SharedModel\obj\Debug\netcoreapp2.2\SharedModel.csproj.CoreCompileInputs.cache
+C:\Users\sku338\source\repos\SharedModel\obj\Debug\netcoreapp2.2\SharedModel.AssemblyInfoInputs.cache
+C:\Users\sku338\source\repos\SharedModel\obj\Debug\netcoreapp2.2\SharedModel.AssemblyInfo.cs
+C:\Users\sku338\source\repos\SharedModel\bin\Debug\netcoreapp2.2\SharedModel.deps.json
+C:\Users\sku338\source\repos\SharedModel\bin\Debug\netcoreapp2.2\SharedModel.dll
+C:\Users\sku338\source\repos\SharedModel\bin\Debug\netcoreapp2.2\SharedModel.pdb
+C:\Users\sku338\source\repos\SharedModel\obj\Debug\netcoreapp2.2\SharedModel.dll
+C:\Users\sku338\source\repos\SharedModel\obj\Debug\netcoreapp2.2\SharedModel.pdb
+C:\Users\sku338\source\repos\SharedModel\obj\Debug\netcoreapp2.2\SharedModel.csprojAssemblyReference.cache
+D:\AirLineBooking\SharedModel\bin\Debug\netcoreapp2.2\SharedModel.deps.json
+D:\AirLineBooking\SharedModel\bin\Debug\netcoreapp2.2\SharedModel.dll
+D:\AirLineBooking\SharedModel\bin\Debug\netcoreapp2.2\SharedModel.pdb
+D:\AirLineBooking\SharedModel\obj\Debug\netcoreapp2.2\SharedModel.csprojAssemblyReference.cache
+D:\AirLineBooking\SharedModel\obj\Debug\netcoreapp2.2\SharedModel.csproj.CoreCompileInputs.cache
+D:\AirLineBooking\SharedModel\obj\Debug\netcoreapp2.2\SharedModel.AssemblyInfoInputs.cache
+D:\AirLineBooking\SharedModel\obj\Debug\netcoreapp2.2\SharedModel.AssemblyInfo.cs
+D:\AirLineBooking\SharedModel\obj\Debug\netcoreapp2.2\SharedModel.dll
+D:\AirLineBooking\SharedModel\obj\Debug\netcoreapp2.2\SharedModel.pdb
